@@ -91,11 +91,8 @@ Troubleshooting
 
 -	No songs found
 -	The CSS selector may have changed. Inspect the Billboard page and adjust the soup.select(...) string.
--	403 Forbidden from Billboard
--	Billboard may block scrapers. You can switch to the GitHub-hosted JSON endpoint or use Selenium.
--	Spotify errors
 -	Ensure your redirect URI in the Spotify Developer Dashboard matches SPOTIPY_REDIRECT_URI.
--	Check that your token cache (token.json) is writable.
+-	Check that your token cache (token.text) is writable.
 
 ⸻
 
